@@ -50,6 +50,7 @@ return (
           {orders.length > 0 ? orders.map((order) => 
         order.products.map((product)=>
         <HistoryProducts
+        key={product.id}
         id={product.id}
         price={product.price}
         name={product.name}

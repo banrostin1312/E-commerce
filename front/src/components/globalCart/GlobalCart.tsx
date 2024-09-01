@@ -25,7 +25,7 @@ const GlobalCart = () => {
       });
       return;
     }
-    const productsId = cartItems.map((item) => item.id);
+    const productsId = cartItems.map((item) => item.id );
   
   try {
     const response = await axios.post("http://localhost:3001/orders",{products:productsId},
