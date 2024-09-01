@@ -1,0 +1,7 @@
+.productsContainer{
+    background-color: rgba(155, 148, 148, 0.103);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}

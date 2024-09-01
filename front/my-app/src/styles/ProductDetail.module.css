@@ -1,0 +1,15 @@
+.productExpand {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .productContainer {
+    /* Ajusta el ancho según sea necesario */
+    flex: 1;
+  }
+  
+  .productDetails {
+    margin-left: 20px; /* Espacio entre el producto y los detalles */
+    flex: 1;
+  }
+  

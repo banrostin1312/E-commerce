@@ -1,0 +1,23 @@
+.skeleton {
+  background-color: rgba(155, 148, 148, 0.103); /* Mismo color de fondo */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  width: 200px; /* Ancho fijo para que coincida con el ancho del producto */
+}
+
+.skeletonImage {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+
+.skeletonText {
+  width: 80%;
+  height: 20px;
+  background-color: #ddd;
+  margin: 5px 0;
+}
+  
