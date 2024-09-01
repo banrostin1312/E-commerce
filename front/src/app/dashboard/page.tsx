@@ -8,12 +8,10 @@ import Order from '@/components/order/Order';
 import { useAuth } from '@/contexts/AuthContext';
 import HistoryProducts from '@/components/historyProducts/HistoryProducts';
 //Vendors
-import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+
 
 const Dashboard: React.FC = () => {
 const {user,orders} = useAuth();
-const router = useRouter();
 
 
 
